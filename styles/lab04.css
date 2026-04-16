@@ -1,0 +1,58 @@
+ * { 
+    font-family: calibri, sans-serif;
+    color: #2F4F4F
+    }
+
+h1, h2, h3 {font-family: Arial, sans-serif;}
+
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+h2 {
+    color: rgb(0,128,128);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav a {
+        text-decoration: none;
+        padding:0.2em 0.6em;
+        border: 4px solid #ccc;
+        }
+
+ol ul {
+    list-style-type : square;
+}
+
+aside, footer { font-style: italic; }
+
+th, td {border: 1px solid black;}
+
+.THMonth {
+    text-align: right;
+}
+
+.special {
+          color: darkorange;
+          font-weight:bold;
+         } 
+
+#images {
+         text-align : center;
+         }
+
+#h3HeadingsText {
+    color: red;
+}
+
+aside:hover {
+    visibility: hidden; /* I do this way because this only works on my browser */
+}
+
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
